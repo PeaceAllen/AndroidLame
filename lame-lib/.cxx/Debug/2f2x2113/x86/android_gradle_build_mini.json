@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/fengjz/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/.cxx/Debug/2f2x2113/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/fengjz/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/.cxx/Debug/2f2x2113/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mylibrary::@6890427a1f51a3e7e1df": {
+      "artifactName": "mylibrary",
+      "abi": "x86",
+      "output": "/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/build/intermediates/cxx/Debug/2f2x2113/obj/x86/libmylibrary.so",
+      "runtimeFiles": []
+    }
+  }
+}

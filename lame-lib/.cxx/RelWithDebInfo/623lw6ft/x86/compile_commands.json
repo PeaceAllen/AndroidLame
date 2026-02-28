@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/.cxx/RelWithDebInfo/623lw6ft/x86",
+  "command": "/Users/fengjz/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android26 --sysroot=/Users/fengjz/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dmylibrary_EXPORTS -I/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/mylibrary.dir/mylibrary.cpp.o -c /Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/src/main/cpp/mylibrary.cpp",
+  "file": "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/src/main/cpp/mylibrary.cpp"
+}
+]

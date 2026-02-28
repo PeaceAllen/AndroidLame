@@ -1,0 +1,6 @@
+# ninja log v5
+0	4	0	clean	98ca2a51e7d3e2be
+0	43	1772250668406767766	CMakeFiles/mylibrary.dir/mylibrary.cpp.o	4e037e294c2006f4
+43	166	1772250668530483297	/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/build/intermediates/cxx/Debug/17104j66/obj/arm64-v8a/libmylibrary.so	dda801f6709437f1
+0	150	1772256790395454152	CMakeFiles/mylibrary.dir/mylibrary.cpp.o	4e037e294c2006f4
+150	310	1772256790553106303	/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/build/intermediates/cxx/Debug/17104j66/obj/arm64-v8a/libmylibrary.so	dda801f6709437f1

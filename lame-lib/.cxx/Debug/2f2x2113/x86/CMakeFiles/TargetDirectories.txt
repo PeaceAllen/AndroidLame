@@ -1,0 +1,3 @@
+/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/.cxx/Debug/2f2x2113/x86/CMakeFiles/mylibrary.dir
+/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/.cxx/Debug/2f2x2113/x86/CMakeFiles/edit_cache.dir
+/Users/fengjz/code/android/myopen/AndroidLame/lame-lib/.cxx/Debug/2f2x2113/x86/CMakeFiles/rebuild_cache.dir

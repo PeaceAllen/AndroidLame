@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/fengjz/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/.cxx/RelWithDebInfo/623lw6ft/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/fengjz/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/.cxx/RelWithDebInfo/623lw6ft/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mylibrary::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "mylibrary",
+      "output": "/Users/fengjz/code/android/AndroidCodeLab/AndroidLame/mylibrary/build/intermediates/cxx/RelWithDebInfo/623lw6ft/obj/x86/libmylibrary.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/fengjz/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/fengjz/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

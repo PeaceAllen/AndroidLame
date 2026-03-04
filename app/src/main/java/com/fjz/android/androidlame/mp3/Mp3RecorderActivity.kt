@@ -1,4 +1,4 @@
-package com.fjz.android.androidlame
+package com.fjz.android.androidlame.mp3
 
 import android.Manifest
 import android.content.BroadcastReceiver
@@ -18,7 +18,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.fjz.android.androidlame.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class Mp3RecorderActivity : AppCompatActivity() {
 
     private lateinit var mBinding: ActivityMainBinding
     private var isRecording = false
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
         
         val filter = IntentFilter("RECORDING_FINISHED")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            registerReceiver(recordingReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
+            registerReceiver(recordingReceiver, filter, RECEIVER_NOT_EXPORTED)
         } else {
             registerReceiver(recordingReceiver, filter)
         }

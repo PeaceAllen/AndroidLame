@@ -6,7 +6,9 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +20,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLame">
         <activity
-            android:name=".MainActivity"
+            android:name=".aac.AACRecorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidAVStudy"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +31,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mp3.Mp3RecorderActivity"
+            android:exported="false"></activity>
 
         <service
-            android:name=".RecordingService"
+            android:name=".mp3.RecordingService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="microphone" />

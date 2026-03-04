@@ -6,29 +6,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_vertical"
-    tools:context=".mp3.Mp3RecorderActivity">
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    tools:context=".AndroidAVStudy">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/av_study"/>
 
 
     <Button
-        android:id="@+id/btnStartRecording"
+        android:id="@+id/btnMp3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Recording"/>
+        android:layout_marginTop="10dp"
+        android:text="mp3 reocorder(AudioTrack+Lame+SoundTouch)"/>
 
 
     <Button
-        android:id="@+id/btnStartPlaying"
+        android:id="@+id/btnAAC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Playing"/>
+        android:layout_marginTop="10dp"
+        android:text="AAC reocorder(MediaCodec + MediaMuxer)"/>
 
-
-    <TextView
-        android:id="@+id/tvPcmPath"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="path: -- "/>
 
 
 </LinearLayout>

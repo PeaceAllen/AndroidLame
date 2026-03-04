@@ -6,29 +6,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_vertical"
-    tools:context=".mp3.Mp3RecorderActivity">
-
+    tools:context=".aac.AACRecorderActivity">
 
     <Button
-        android:id="@+id/btnStartRecording"
+        android:id="@+id/btnStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start Recording"/>
 
-
     <Button
-        android:id="@+id/btnStartPlaying"
+        android:id="@+id/btnStop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Playing"/>
-
+        android:text="Stop Recording"/>
 
     <TextView
-        android:id="@+id/tvPcmPath"
+        android:id="@+id/tvPath"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="path: -- "/>
+        android:padding="10dp"/>
 
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"/>
 
 </LinearLayout>

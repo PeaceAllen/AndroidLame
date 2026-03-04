@@ -1,7 +1,6 @@
-package com.fjz.android.androidlame
+package com.fjz.android.androidlame.mp3
 
 import android.app.*
-import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
 import android.media.AudioFormat
@@ -11,6 +10,7 @@ import android.os.Build
 import android.os.IBinder
 import android.util.Log
 import androidx.core.app.NotificationCompat
+import com.fjz.android.androidlame.R
 import com.fjz.android.mylibrary.LameUtil
 import java.io.File
 import java.io.FileOutputStream
